@@ -21,6 +21,7 @@ ALLOWED_HOSTS = ["manage-student-backend-l8rc.onrender.com", "127.0.0.1", "local
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000"
+    "https://manage-student-frontend.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = ["*"]
