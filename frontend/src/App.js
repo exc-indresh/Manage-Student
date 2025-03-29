@@ -5,7 +5,7 @@ import StudentTable from "./Component/StudentTable";
 import StudentCard from "./Component/StudentCard";
 import "./App.css"
 
-const API_URL = "http://127.0.0.1:8000/api/students/";
+const API_URL = "https://manage-student-backend-l8rc.onrender.com/api/students/";
 
 export default function App() {
     const [students, setStudents] = useState([]);
